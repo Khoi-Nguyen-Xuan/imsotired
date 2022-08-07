@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="icon" type="image/x-icon" href="C:\Website\html\html\IMAGES\PTNK.jpg">
+	<style>
+
+	*{
+		margin: 0;
+	}
+
+	#grad1 {
+				height: 100%;
+					background-image: linear-gradient(to right bottom,peru, sandybrown);
+	}
+
+	#grad2 {
+
+			height: 100%;
+			background-image: linear-gradient(to left bottom, peru,sandybrown);
+	}
+
+	#grad3{
+		height: 80px;
+		background-image: linear-gradient(to bottom, moccasin,bisque);
+	}
+
+	#grad4{
+		height: 100%;
+		background-image: linear-gradient(to right,sienna,tan);
+	}
+
+	#grad5{
+		height: 100%;
+		background-image: linear-gradient(to bottom,burlywood,wheat);
+	}
+
+	input[type=text] {
+				width: 100%;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				font-size: 19px;
+				background-color: white;
+				background-image: url('https://clipground.com/images/search-icon-clipart.png');
+				background-position: 10px 10px; 
+				background-repeat: no-repeat;
+				padding: 12px 20px 12px 40px;
+
+			}
+
+				.dropbtn {
+					background-color: chocolate;
+					color: white;
+					padding: 16px;
+					font-size: 16px;
+					border: none;
+					cursor: pointer;
+					width: 337px;
+			}		
+
+		.dropdown {
+					position: relative;
+						display: inline-block;
+						
+			}
+
+		.dropdown-content {
+					display: none;
+					position: absolute;
+					background-color: #f9f9f9;
+					min-width: 337px;
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1;
+		}
+
+		.dropdown-content a {
+					color: black;
+					padding: 12px 16px;
+					text-decoration: none;
+					display: block;
+		}	
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+		.dropdown2-content a:hover {background-color: khaki}
+
+		.dropdown:hover .dropdown-content {
+					display: block;
+		}
+
+		.dropdown-content a:hover 
+		{
+			background-color: lightgrey;
+			font-size: 23px;
+			text-decoration-color: lightskyblue;
+		}
+
+		.dropdown-content a:visited
+		{
+			text-decoration: underline;
+			text-decoration-color: skyblue;
+		}
+
+
+
+		.dropdown:hover .dropbtn {
+					background-color: #3e8e41;
+			}
+
+
+	.wrapper{
+		width:100%;
+		height:5000px;
+		background-image: linear-gradient(to  right bottom,burlywood,wheat);
+
+		color:black; 
+		background-repeat: no-repeat;
+		top : 0;
+		left :0;
+		position: relative;
+
+	}
+
+	.box1{
+		width: 25%;
+		height : 100%;
+		position: absolute;
+		background-color: sandybrown;
+		float : left; 
+		transform: translateY(0.12%);
+		
+	}
+
+	.box2{
+		width: 25%;
+		background-color: sandybrown;
+		height : 100%;
+		position: absolute;
+		float: right;
+		right: 0px;
+		transform: translateY(0.12%);
+		
+		
+	}
+
+
+	h1{
+overflow-x: ;		text-align: center;
+
+	}
+
+	h3{
+		font-family: "Garamond",serif;
+	}
+
+	.nav {
+				background-color: sienna ; 
+				list-style-type: none;
+				color: black;
+				text-align: center;
+				margin: 0;
+				padding: 0;
+	}
+
+	.nav li {
+				display: inline-block;
+				color: black;
+				font-size: 30px;
+			padding: 20px;
+		}
+
+
+	.dropdown2{
+
+		position: relative;
+		display: inline-block;
+
+
+	}
+
+	.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0px;
+  z-index: 1;
+  margin: 0px;
+  
+  text-align: center;
+}
+
+#noPadding{
+		
+		margin: 0px;
+		border-style: none;
+
+}
+
+.dropdown2:hover .dropdown2-content {
+  display: block;
+  text-align: center;
+}
+
+.dropdown2-content li:hover 
+		{
+			background-color: darkgoldenrod;
+
+		
+		}
+
+			.dropdown2-content:visited
+		{
+			text-decoration: underline;
+			text-decoration-color: skyblue;
+		}
+
+		 p : hover {
+			background-color: darksalmon;
+		}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: tomato;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: orangered}
+
+.button:active {
+  background-color: maroon;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+		
+
+	</style>
+
+	
+</head>
+
+<body>
+
+	<div class ="wrapper">
+
+		
+
+		<ul class="nav" id="grad3">
+		
+			<li style ="text-decoration:underline; color :black; text-decoration: underline;">
+
+				<div class ="dropdown2" style ="text-decoration: underline;">
+					<span>
+					 <p>Locaton</p>
+					</span>
+					<div >
+  			<ul class="dropdown2-content"> 
+  				<li id="noPadding" style ="font-size: 20px"> District 1 </li>
+  				<li id="noPadding" style ="font-size: 20px"> District 2</li>
+  				<li id="noPadding" style ="font-size: 20px"> District 3</li>
+  				<li id="noPadding" style ="font-size: 20px"> District 4</li>
+  				<li id="noPadding" style ="font-size: 20px"> District 5</li>
+  				<li id="noPadding" style ="font-size: 20px"> District 6</li>
+  				<li id="noPadding" style ="font-size: 20px"> District 7</li>
+  			</ul>
+  			</div>
+				</div>
+					</li>
+
+					<li style ="text-decoration:underline; color :black; text-decoration: underline;">
+
+				<div class ="dropdown2" style ="text-decoration: underline;">
+					<span>
+						Services
+					</span>
+					<div >
+  			<ul class="dropdown2-content"> 
+  				<li id="noPadding" style ="font-size: 20px"> Donation </li>
+  				<li id="noPadding" style ="font-size: 20px"> Sell books </li>
+  				<li id="noPadding" style ="font-size: 20px"> Borrow books </li>
+  				<li id="noPadding" style ="font-size: 20px"> Cooperation</li>
+  			</ul>
+  			</div>
+				</div>
+					</li>
+
+
+					<li style ="text-decoration:underline; color :black; text-decoration: underline;">
+
+				<div class ="dropdown2" style ="text-decoration: underline;">
+					<span>
+					 Genres
+					</span>
+					<div >
+  			<ul class="dropdown2-content"> 
+  				<li style ="font-size: 20px"> Horror </li>
+  				<li style ="font-size: 20px"> Fiction</li>
+  				<li style ="font-size: 20px"> Commic</li>
+  				<li style ="font-size: 20px"> Science</li>
+  				<li style ="font-size: 20px"> Romance</li>
+  				<li style ="font-size: 20px"> Documentary</li>
+  			</ul>
+  			</div>
+				</div>
+					</li>
+
+
+					<li style ="text-decoration:underline; color :black; text-decoration: underline;">
+
+				<div class ="dropdown2" style ="text-decoration: underline;">
+					<span>
+					Contact us
+					</span>
+					<div >
+  			<ul class="dropdown2-content"> 
+  				<li style ="font-size: 20px"> Email</li>
+  				<li style ="font-size: 20px"> Social media</li>
+  				<li style ="font-size: 20px"> Hotline</li>
+  			
+  			</ul>
+  			</div>
+				</div>
+					</li>
+
+
+					<li style ="text-decoration:underline; color :black; text-decoration: underline;">
+
+				<div class ="dropdown2" style ="text-decoration: underline;">
+					<span>
+						Feedback
+					</span>
+					<div >
+  			<ul class="dropdown2-content"> 
+  				<li style ="font-size: 20px"> Our services </li>
+  				<li style ="font-size: 20px"> Our books</li>
+  				<li style ="font-size: 20px"> Our staff</li>
+  				<li style ="font-size: 20px"> Others</li>
+  				
+  			</ul>
+  			</div>
+				</div>
+					</li>
+
+
+
+
+
+
+			
+	
+
+
+		<div class ="box1">
+			<div id ="grad1"> 
+		<form>
+		<input type="text" name="search" placeholder="Search..">
+		
+		</form>  
+
+		<button class ="button" onclick = "myWish()"> Enter </button>
+		<br>
+		<br>
+
+		<script>
+
+		function myWish() {
+  document.getElementById("clicked").innerHTML = "Cannot find anything...";
+  }
+
+
+	</script>
+
+
+		<p style ="text-align: left; text-decoration: underline; font-size: 25px">Result</p> <h2 id="clicked"> </h2>
+
+
+	 </div> 
+		</div>
+
+
+
+
+		<div class ="box2" id="grad2"> 
+		
+			<div class ="dropdown" >
+			<button class="dropbtn" id="grad4"><h2>Dropdown<h2></button>
+					<div class="dropdown-content">
+						<a href="https://www.w3schools.com/cssref/css_colors.asp" target ="blank">CSS Color</a>
+						<a href="https://www.w3schools.com/css/css_dropdowns.asp" target ="blank">CSS Dropdown</a>
+						<a href="https://www.w3schools.com/css/css_image_transparency.asp" target ="blank">CSS Opacity</a>
+						<a href ="https://www.w3schools.com/css/css_font.asp" target = "blank">CSS Font</a>
+						<a href ="https://www.w3schools.com/css/css_background.asp" target ="blank"> CSS Background </a>
+						</div>
+
+					</div>
+
+
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+	
+
+
+</body>
+
+</html>
